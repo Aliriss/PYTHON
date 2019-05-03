@@ -36,5 +36,5 @@ for b in range(2,n+1):
         if first!=last:
             first=last
             zero=0
-    lst[(int)((head+tail)/2)]=1   # man sits
+    lst[(int)((head+tail)/2)]=b   # man sits
     print('No ','%2d'%(b),' man:',lst) # the sequence of benches 
